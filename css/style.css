@@ -169,7 +169,6 @@
   background-color: rgba(100, 72, 69, 0.8);
   background-image: url(../css/img/flat-studio-1.png);
   opacity: 20%;
-
 }
 
 .card__title {
@@ -301,7 +300,7 @@
 }
 
 .feedback__slide_arrow img {
-margin: 30px 20px;
+  margin: 30px 20px;
 }
 
 .feedback__slide_text {
