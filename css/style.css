@@ -1,0 +1,404 @@
+.b-page {
+  width: 1400px;
+  height: 5372px;
+  background: #efe6e4;
+  font-family: "Montserrat";
+  font-style: normal;
+  margin: 0;
+}
+
+.header {
+  width: 1400px;
+  height: 715px;
+  background-image: url(../css/img/web-studio-main-img.png);
+}
+
+.form__nav {
+  position: absolute;
+  left: 98.32px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #533738;
+  margin-top: 38px;
+  display: flex;
+}
+
+.form__nav_list {
+  list-style: none;
+  display: flex;
+  gap: 26px;
+}
+
+.form__nav_link {
+  text-decoration: none;
+  color: #533738;
+}
+
+.form__nav_link:hover {
+  text-decoration: underline;
+}
+
+.form__nav_title {
+  font-weight: 400;
+  font-size: 50px;
+  color: #533738;
+  line-height: 62px;
+  position: absolute;
+  width: 534.02px;
+  left: 184.08px;
+  top: 152px;
+}
+
+.form__nav_text {
+  font-size: 18px;
+  line-height: 30px;
+  position: absolute;
+  width: 493.57px;
+  left: 184.08px;
+  top: 362px;
+}
+
+.form__nav_button {
+  position: absolute;
+  width: 309.14px;
+  height: 74px;
+  left: 182px;
+  top: 473px;
+  background: #cc8b86;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  border: none;
+  color: #533738;
+  margin-top: 21px;
+}
+
+.about {
+  position: absolute;
+  width: 1400px;
+  height: 849px;
+  top: 780px;
+  color: #533738;
+}
+
+.about__title {
+  font-weight: 400;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #533738;
+  text-align: center;
+  margin-top: 0;
+}
+
+.about__elem {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 61px;
+  margin-left: 183px;
+}
+
+.about__elem_text {
+  width: 528px;
+  top: 870px;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 0;
+  margin-right: 182px;
+}
+
+.about__elem_img {
+  left: 182px;
+  top: 870px;
+}
+
+.about__list {
+  width: 1400px;
+  height: 273px;
+  background: #8d7370;
+  text-transform: uppercase;
+  color: #ffffff;
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  justify-content: stretch;
+}
+
+.about__list_bottomText {
+  text-align: center;
+  margin-bottom: 81px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.about__list_topText {
+  text-align: center;
+  margin-top: 85px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 62px;
+}
+
+.works__title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #533738;
+  margin-bottom: 40px;
+}
+
+.works {
+  position: absolute;
+  left: 100px;
+  top: 1694px;
+}
+
+.works__card {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  column-gap: 20px;
+}
+
+.card__block {
+  width: 488px;
+  height: 451px;
+  top: 1784px;
+  background-color: rgba(100, 72, 69, 0.8);
+  background-image: url(../css/img/flat-studio-1.png);
+  opacity: 20%;
+
+}
+
+.card__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 87px;
+}
+
+.card__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.works__link {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: #533738;
+  text-decoration: none;
+  display: block;
+  margin-left: 453px;
+  margin-top: 40px;
+}
+
+.teamWork {
+  position: absolute;
+  width: 1399px;
+  height: 998px;
+  left: 1px;
+  top: 2858px;
+  background: #e2c4ba;
+}
+
+.team {
+  left: 1px;
+  top: 2858px;
+  display: flex;
+  flex: 320px 320px 320px;
+  flex-wrap: wrap;
+  gap: 36px;
+  justify-content: center;
+}
+
+.team__title {
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #533738;
+  text-align: center;
+}
+
+.team__people__text {
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+  width: 320px;
+  height: 150px;
+}
+
+.we-work {
+  position: absolute;
+  width: 1400px;
+  height: 998px;
+}
+
+.we-work__title {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #533738;
+  text-align: center;
+}
+
+.we-work__list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.we-work__text {
+  width: 285px;
+  height: 120px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #533738;
+}
+
+.feedback {
+  position: absolute;
+  width: 1036px;
+  height: 658px;
+  left: 182px;
+  top: 3921px;
+}
+
+.feedback__title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #533738;
+}
+
+.feedback__slide {
+  width: 1036px;
+  display: flex;
+  gap: 29px;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback__slide_arrow {
+  background: url(../css/img/Ellipse-bachground-arrow.png) no-repeat;
+  width: 72px;
+  height: 72px;
+}
+
+.feedback__slide_arrow img {
+margin: 30px 20px;
+}
+
+.feedback__slide_text {
+  width: 400px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+}
+
+.feedback__slide_img {
+  width: 407px;
+  display: flex;
+  flex: auto;
+  flex-wrap: wrap;
+  row-gap: 17px;
+  margin: 0;
+  padding: 0;
+}
+
+.form {
+  display: flex;
+  position: absolute;
+  width: 1400px;
+  top: 4644px;
+  background: #8d7370;
+}
+
+.form__field {
+  margin-left: 181px;
+  width: 507px;
+}
+
+.field__title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.field__text {
+  color: #ffffff;
+  opacity: 0.6;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.field__button {
+  background: #cc8b86;
+  width: 300px;
+  height: 74px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #533738;
+  border: 0;
+  margin-top: 31px;
+}
+
+.field__input {
+  width: 450px;
+  height: 69px;
+  font-size: 18px;
+  line-height: 30px;
+  background-color: #8d7370;
+  color: #f6ede9;
+  border: 0;
+  border-bottom: 1px solid #ffffff;
+}
+
+.field__input::-webkit-input-placeholder {
+  color: #f6ede9;
+}
+
+.footer {
+  position: absolute;
+  top: 5305px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+  display: flex;
+}
+
+.footer__text_tel {
+  margin-left: 100px;
+  margin-right: 42px;
+}
+
+.footer__text_address {
+  margin-right: 365px;
+}
+
+.footer__text_name {
+  margin-right: 100px;
+}
