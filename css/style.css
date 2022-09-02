@@ -1,6 +1,5 @@
 .b-page {
   width: 1400px;
-  height: 5372px;
   background: #efe6e4;
   font-family: "Montserrat";
   font-style: normal;
@@ -166,9 +165,10 @@
   width: 488px;
   height: 451px;
   top: 1784px;
-  background-color: rgba(100, 72, 69, 0.8);
-  background-image: url(../css/img/flat-studio-1.png);
-  opacity: 20%;
+
+  background-image: linear-gradient(rgba(69, 47, 47, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../css/img/flat-studio-1.png);
+  opacity: 70%;
 }
 
 .card__title {
@@ -203,7 +203,7 @@
 .teamWork {
   position: absolute;
   width: 1399px;
-  height: 998px;
+  height: 850px;
   left: 1px;
   top: 2858px;
   background: #e2c4ba;
@@ -253,14 +253,14 @@
 
 .we-work__list {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
   margin-left: 100px;
   margin-right: 100px;
 }
 
 .we-work__text {
-  width: 285px;
+  width: 300px;
   height: 120px;
   font-size: 18px;
   line-height: 30px;
@@ -273,7 +273,7 @@
   width: 1036px;
   height: 658px;
   left: 182px;
-  top: 3921px;
+  top: 3730px;
 }
 
 .feedback__title {
@@ -325,7 +325,7 @@
   display: flex;
   position: absolute;
   width: 1400px;
-  top: 4644px;
+  top: 4470px;
   background: #8d7370;
 }
 
@@ -381,7 +381,7 @@
 
 .footer {
   position: absolute;
-  top: 5305px;
+  top: 5120px;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
