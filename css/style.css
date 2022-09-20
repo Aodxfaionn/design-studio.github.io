@@ -57,6 +57,17 @@
   top: 362px;
 }
 
+.form__nav_navText a,
+.footer__text_tel a {
+  text-decoration: none;
+  color: #533738;
+}
+
+.form__nav_navText a:hover,
+.footer__text_tel a:hover {
+  text-decoration: underline;
+}
+
 .form__nav_button {
   position: absolute;
   width: 309.14px;
@@ -70,6 +81,7 @@
   border: none;
   color: #533738;
   margin-top: 21px;
+  cursor: pointer;
 }
 
 .about {
@@ -202,7 +214,7 @@
 
 .teamWork {
   position: absolute;
-  width: 1399px;
+  width: 1400px;
   height: 850px;
   left: 1px;
   top: 2858px;
@@ -253,18 +265,15 @@
 
 .we-work__list {
   display: flex;
-  gap: 30px;
+  flex-wrap: wrap;
   justify-content: center;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 .we-work__text {
-  width: 300px;
-  height: 120px;
+  width: 500px;
+  height: 100px;
   font-size: 18px;
   line-height: 30px;
-  text-align: center;
   color: #533738;
 }
 
@@ -297,6 +306,7 @@
   background: url(../css/img/Ellipse-bachground-arrow.png) no-repeat;
   width: 72px;
   height: 72px;
+  cursor: pointer;
 }
 
 .feedback__slide_arrow img {
@@ -362,6 +372,7 @@
   color: #533738;
   border: 0;
   margin-top: 31px;
+  cursor: pointer;
 }
 
 .field__input {
