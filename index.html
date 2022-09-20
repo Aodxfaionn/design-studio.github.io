@@ -24,7 +24,7 @@
         <li><a href="#about-work" class="form__nav_link">Как мы работаем</a></li>
         <li><a href="#feedback" class="form__nav_link">Отзывы клиентов</a></li>
         <li><a href="#form" class="form__nav_link">Оставить заявку</a></li>
-        <span class="form__nav_navText">+7 (981) 857-46-24</span>
+        <span class="form__nav_navText"><a href="tel:+798185746-4">+7 (981) 857-46-24</a></span>
       </ul>
     </nav>
     <h1 class="form__nav_title">Поможем сделать вашу квартиру уютнее</h1>
@@ -112,18 +112,18 @@
         <h2 class="we-work__title">Как мы работаем</h2>
         <ol class="we-work__list">
           <li class="we-work__text">
-            <p>Знакомимся, выезжаем на объект, утверждаем концепцию, подписываем
-              договор.</p>
+            Знакомимся, выезжаем на объект, утверждаем концепцию, подписываем
+            договор.
           </li>
           <li class="we-work__text">
-            <p>Подбираем мебель, текстиль, аксессуары. Делаем 3D- визуализацию.</p>
+            Подбираем мебель, текстиль, аксессуары. Делаем 3D-визуализацию.
           </li>
           <li class="we-work__text">
-            <p>Находим нужные магазины, помогаем с доставкой и оплатой товаров.</p>
+            Находим магазины, помогаем с доставкой.
           </li>
           <li class="we-work__text">
-            <p>Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем шторы,
-              находим места для мелочей.</p>
+            Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем шторы,
+            находим места для мелочей.
           </li>
           </p>
         </ol>
@@ -162,16 +162,22 @@
           ответит на все вопросы.
         </p>
         <form>
-          <input type="text" placeholder="Ваше имя" class="field__input" required />
-          <p><input type="text" placeholder="Введите телефон" class="field__input" required /></p>
-          <p><button class="field__button">Оставить заявку</button></p>
+          <label for="name">
+            <input type="text" id="name" placeholder="Ваше имя" class="field__input" required />
+          </label>
+          <p>
+            <label for="phone">
+              <input type="text" id="phone" placeholder="Введите телефон" class="field__input" required />
+            </label>
+          </p>
+          <p><button class="field__button">Оставить заявку</button> </p>
         </form>
       </div>
       <img src="css/img/map.png" alt="Местоположение студии" width="590px" height="624px" class="form__map" />
     </div>
   </main>
   <footer class="footer">
-    <span class="footer__text_tel">+7 (981) 857-46-24</span>
+    <span class="footer__text_tel"><a href="tel:+798185746-4">+7 (981) 857-46-24</a></span>
     <span class="footer__text_address">г. Санкт-петербург, ул. Большая Конюшенная, 19</span>
     <span class="footer__text_name">ИП Королёва А.А.</span>
   </footer>
